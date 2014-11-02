@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "mercurypay"
   spec.version       = Mercurypay::VERSION
   spec.authors       = ["Yehia Abo El-Nga"]
-  spec.email         = ["yehia@devrok.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.email         = ["yhia.yasser@gmail.com"]
+  spec.description   = %q{This is a wrapper for Mercury Payments REST API}
+  spec.summary       = %q{This is a wrapper for Mercury Payments REST API}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+
+  spec.add_dependency "httparty"
 end
